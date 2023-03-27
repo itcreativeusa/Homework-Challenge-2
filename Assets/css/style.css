@@ -9,7 +9,6 @@
 body {
     font-size: 16px;
     margin:0 auto;
-
     display: flex;
     flex-direction: column;
     background-color: rgb(238 238 246);
@@ -69,8 +68,8 @@ nav ul li {
 /*Main content*/
 
 main{
-  
   width: 80%;
+  margin: 0 auto;
 }
 
 .articles {
@@ -79,10 +78,7 @@ main{
     width: 80%;
  
 }
-h2 {
-   
-   
-}
+
 
 .title-h2{
     color: var(--dark-blue-color);
@@ -92,6 +88,7 @@ h2 {
     text-align: right;
     display: inline;
     width: 20%;
+    padding: 0 3% 0 0;
    
 }
 
@@ -100,6 +97,7 @@ h2 {
 .about-me {
     display: flex;
     flex-direction: row;
+    margin:3%;
 
 }
 
@@ -108,6 +106,7 @@ h2 {
     text-align: justify;
     line-height: 1.5;
     font-weight: 100;
+    padding: 0 0% 3% 4%;
 
     
 }
@@ -115,14 +114,20 @@ h2 {
 .section-portfolio{
     flex-direction: row;
     display: flex;
+    margin: 3%;
 
 }
 
 .portfolio-images-wrap{
     width: 80%;
+    padding: 0 0 0 3%;
+
 }
 
 
+#wrap-image{
+    width: 1200px;
+    }
 
 .figure {
     display: flex;
@@ -202,12 +207,16 @@ figure img {
 /*footer*/
 footer{
     width: 80%;
+    margin: 0 auto;    
+
 
 }
 .contacts {
     align-items: center;
     display: flex;
     flex-direction: row;
+    margin: 3%;
+   
    
 }
 
@@ -215,6 +224,7 @@ footer{
 #nav-menu-footer {
     display: flex;
     flex-direction: row;
+    padding:  0 0 0 3%;
   
 }
 
@@ -227,6 +237,3 @@ footer{
 }
 
 
-#wrap-image{
-width: 1200px;
-}
