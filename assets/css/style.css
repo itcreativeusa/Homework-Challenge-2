@@ -66,7 +66,6 @@ nav ul li {
 }
 
 /*Main content*/
-
 main {
   width: 100%;
   margin: 0 auto;
@@ -83,13 +82,13 @@ main {
   width: 20%;
   padding: 0 3% 0 0;
 }
+
 .articles {
   display: flex;
   flex-direction: column;
   width: 80%;
 }
 
-/*Portfolio Section*/
 .about-me {
   display: flex;
   flex-direction: row;
@@ -104,58 +103,43 @@ main {
   padding: 0 0% 3% 4%;
 }
 
+/*Portfolio Section*/
 .section-portfolio {
   flex-direction: row;
   display: flex;
   margin: 1% 4% 1% 4%;
 }
-
+/*Wrap for whole images block*/
 .portfolio-images-wrap {
   width: 80%;
   padding: 0 0 0 3%;
 }
 
-.full-image{
+/*Fullwidth image portfolio*/
+.full-image {
   display: flex;
-
 }
 
-
- img {
+img {
   border: 3px solid var(--mint-color);
   width: 300px;
   object-fit: cover;
-  -webkit-filter: brightness(40%); 
+  -webkit-filter: brightness(40%);
   max-width: 100%;
   height: auto;
 }
 
- img:hover {
+figure img {
+  width: 100%;
+  border: 3px solid var(--mint-color);
+}
+
+/*Effect on hover*/
+img:hover {
   box-shadow: inset 0px 0px 8px var(--dark-grey-color),
     0 0 15px var(--dark-grey-color);
   -webkit-filter: brightness(100%);
   transition-duration: 1s;
-}
-
-/*Figurecaption*/
-
-
-figurecaption h3 {
-  font-size: 1.5em;
-  font-weight: 400;
-}
-
-figurecaption h4 {
-  font-weight: 100;
-}
-
-figurecaption {
-  background-color: var(--mint-color);
-  display: block;
-  width: fit-content;
-  padding: 2%;
-  position: relative;
-  bottom: 40%;
 }
 
 /*Columns wrap*/
@@ -176,12 +160,24 @@ figurecaption {
   padding-left: 1%;
 }
 
-figure img {
-  width: 100%;
-  border: 3px solid var(--mint-color);
-
+/*Figurecaption*/
+figurecaption {
+  background-color: var(--mint-color);
+  display: block;
+  width: fit-content;
+  padding: 2%;
+  position: relative;
+  bottom: 40%;
 }
 
+figurecaption h3 {
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+figurecaption h4 {
+  font-weight: 100;
+}
 
 /*footer*/
 footer {
@@ -208,4 +204,3 @@ footer {
   font-weight: 100;
   color: var(--dark-grey-color);
 }
-
