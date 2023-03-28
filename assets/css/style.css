@@ -59,7 +59,7 @@ nav ul li {
   padding: 0 10px;
 }
 
-#hero {
+#header-bg-image {
   background-image: url("../images/bg-1.jpg");
   height: 200px;
   background-size: cover;
@@ -93,7 +93,7 @@ main {
 .about-me {
   display: flex;
   flex-direction: row;
-  margin: 3%;
+  margin: 1% 4% 1% 4%;
 }
 
 .about-me p {
@@ -107,7 +107,7 @@ main {
 .section-portfolio {
   flex-direction: row;
   display: flex;
-  margin: 3%;
+  margin: 1% 4% 1% 4%;
 }
 
 .portfolio-images-wrap {
@@ -115,29 +115,22 @@ main {
   padding: 0 0 0 3%;
 }
 
-.figure {
+.full-image{
   display: flex;
-  flex-direction: row;
-  margin-left: 10%;
-  width: 300px;
+
 }
 
-figurecaption {
-  position: relative;
-  bottom: 40%;
-}
 
-.full-image {
-  display: flex;
-}
-
-figure img {
+ img {
   border: 3px solid var(--mint-color);
   width: 300px;
-  -webkit-filter: brightness(40%);
+  object-fit: cover;
+  -webkit-filter: brightness(40%); 
+  max-width: 100%;
+  height: auto;
 }
 
-figure img:hover {
+ img:hover {
   box-shadow: inset 0px 0px 8px var(--dark-grey-color),
     0 0 15px var(--dark-grey-color);
   -webkit-filter: brightness(100%);
@@ -145,6 +138,7 @@ figure img:hover {
 }
 
 /*Figurecaption*/
+
 
 figurecaption h3 {
   font-size: 1.5em;
@@ -185,7 +179,9 @@ figurecaption {
 figure img {
   width: 100%;
   border: 3px solid var(--mint-color);
+
 }
+
 
 /*footer*/
 footer {
@@ -196,7 +192,7 @@ footer {
   align-items: center;
   display: flex;
   flex-direction: row;
-  margin: 3%;
+  margin: 0 4% 0 4%;
 }
 
 /*Footer menu*/
@@ -212,3 +208,4 @@ footer {
   font-weight: 100;
   color: var(--dark-grey-color);
 }
+
