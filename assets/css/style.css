@@ -29,25 +29,18 @@ header {
   font-size: 300%;
   background-color: var(--mint-color);
   font-weight: 400;
-  padding-left: 4%;
-  padding-right: 1%;
+  padding: 1% 3% 1% 5%;
   color: var(--dark-grey-color);
 }
 
 /*Header Menu*/
 nav ul {
-  display: flex;
-  color: var(--mint-color);
-}
-
-nav ul li {
-  margin-right: 30px;
+  display: flex;   
+  margin: 0 auto;
 }
 
 #nav-menu-header {
-  display: flex;
-  min-width: 50%;
-  justify-content: flex-end;
+  margin: 0 auto;
 }
 
 #nav-menu-header a {
@@ -56,7 +49,7 @@ nav ul li {
   text-decoration: none;
   text-transform: capitalize;
   border-bottom: 4px solid var(--mint-color);
-  padding: 0 10px;
+  margin: 0 10px;
 }
 
 #header-bg-image {
@@ -96,6 +89,7 @@ main {
 }
 
 .about-me p {
+  font-size: 1.5em;
   color: var(--dark-blue-color);
   text-align: justify;
   line-height: 1.5;
@@ -122,16 +116,11 @@ main {
 
 img {
   border: 3px solid var(--mint-color);
-  width: 300px;
+  width: 100%;
   object-fit: cover;
   -webkit-filter: brightness(40%);
   max-width: 100%;
   height: auto;
-}
-
-figure img {
-  width: 100%;
-  border: 3px solid var(--mint-color);
 }
 
 /*Effect on hover*/
@@ -195,7 +184,9 @@ footer {
 #nav-menu-footer {
   display: flex;
   flex-direction: row;
-  padding: 0 0 0 3%;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
 }
 
 /*Footer menu items*/
@@ -203,4 +194,105 @@ footer {
   font-size: 1.5em;
   font-weight: 100;
   color: var(--dark-grey-color);
+  margin: 0 10px;
+}
+
+/* Media Query Screen */
+
+/* Tablets */
+@media screen and (max-width: 992px) {
+  #logo {
+    margin: 0 auto;
+    padding: 1%;
+    text-align: center;
+  }
+  #nav-menu-header {
+    margin: 0 auto;
+  }
+  nav ul li {
+    padding: 3% 0;
+    text-align: center;
+  }
+  #header-bg-image {
+    height: 150px;
+  }
+  .title-h2 {
+    font-size: 2em;
+  }
+  .contacts a {
+    margin: 0;
+  }
+  
+}
+/* Large smartphones */
+@media screen and (max-width: 768px) {
+  #nav-menu-footer {
+    flex-direction: row;
+  }
+  #nav-menu-header a {
+    font-size: 1em;
+  }
+
+  #header-bg-image {
+    height: 100px;
+  }
+  figurecaption h3 {
+    font-size: 1em;
+    font-weight: 400;
+  }
+  .contacts a {
+    margin: 0;
+  }
+}
+/* Small smartphones */
+@media screen and (max-width: 576px) {
+  #nav-menu-header a {
+    font-size: 1em;
+    font-weight: 200;
+  }
+  #logo {
+    font-size: 200%;
+    margin: 0 auto;
+    padding: 1%;
+    text-align: center;
+  }
+  #nav-menu-header {
+    margin: 0 auto;
+    display: flex;
+    align-content: space-around;
+    justify-content: center;
+  }
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav ul li {
+    padding: 3% 0;
+    margin: auto;
+    text-align: center;
+  }
+
+  #header-bg-image {
+    height: 100px;
+  }
+
+  .title-h2 {
+    font-size: 1.5em;
+  }
+  #nav-menu-footer {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0 3%;
+  }
+
+  figurecaption h3 {
+    font-size: 1em;
+    font-weight: 400;
+  }
+
+  .contacts a {
+    font-size: 1em;
+    font-weight: 200;
+    margin: 0;
+  }
 }
