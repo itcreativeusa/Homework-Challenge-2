@@ -4,7 +4,7 @@
   --dark-grey-color: rgb(49 52 61);
   --dark-blue-color: rgb(66 86 117);
 }
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -115,7 +115,6 @@ main {
 
 img {
   border: 3px solid var(--mint-color);
-  width: 100%;
   object-fit: cover;
   -webkit-filter: brightness(40%);
   max-width: 100%;
@@ -152,7 +151,7 @@ figure {
 /*Figurecaption*/
 figurecaption {
   background-color: var(--mint-color);
-  display: block;
+  display: inline-block;
   width: fit-content;
   padding: 2%;
   position: relative;
@@ -197,7 +196,7 @@ footer {
   padding: 0 10px 0;
 }
 
-/* Media Query Screen */
+/* Media Query Screen max-width: 992px*/
 
 /* Tablets */
 @media screen and (max-width: 992px) {
@@ -205,6 +204,7 @@ footer {
     margin: 0 auto;
     padding: 1%;
     text-align: center;
+    font-size: 200%;
   }
   /* Tablets header menu */
   #nav-menu-header {
@@ -228,8 +228,14 @@ footer {
     padding: 0 10px 0;
   }
 }
-/* Large smartphones */
+/* Large smartphones max-width: 768px */
 @media screen and (max-width: 768px) {
+  #logo {
+    margin: 0 auto;
+    padding: 1%;
+    text-align: center;
+    font-size: 200%;
+  }
   #nav-menu-footer {
     flex-direction: row;
   }
@@ -264,10 +270,16 @@ footer {
   }
 }
 
-/* Small smartphones */
+/* Small smartphones max-width: 576px */
 @media screen and (max-width: 576px) {
   header {
     flex-direction: column;
+  }
+  #logo {
+    margin: 0 auto;
+    padding: 1%;
+    text-align: center;
+    font-size: 100%;
   }
   /* Small smartphones header menu links */
   #nav-menu-header a {
@@ -308,16 +320,30 @@ footer {
   .title-h2 {
     font-size: 1em;
   }
-    /* Small smartphones footer menu*/
+  .column-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Small smartphones footer menu*/
   #nav-menu-footer {
     display: flex;
     flex-direction: column;
     padding: 0 0 0 3%;
   }
-
+  .full-image {
+    display: flex;
+    padding-bottom: 40px;
+  }
+  figure {
+    padding: 0;
+  }
   figurecaption h3 {
     font-size: 1em;
     font-weight: 400;
+  }
+  figurecaption {
+    bottom: 60px;
   }
   /* Small smartphones footer menu links */
   .contacts a {
