@@ -8,15 +8,14 @@ https://itcreativeusa.github.io/Homework-Challenge-2/
 Github link 
 https://github.com/itcreativeusa/Homework-Challenge-2
 
-This Homework-Challenge-2 website was created as a bootcamp everyweek student challege. This website is a HTML & CSS portfolio page. The code of this portfolio page was created from scratch. 
-- HTML elemens "div" were replaced by semantic elements (header, figure, nav, main, aside, footer)
-- Added alt attributes to icons & images
-- Added descriptive title 
-- Fixed navigation links
-- Added comments to HTML index file before each element or section of the page
-- CSS selectors & properties are consolidated & organized
-- Added comments to CSS file
-- Added README.MD file
+This Homework-Challenge-2 website was created as a bootcamp everyweek student challege. This website is a HTML & CSS portfolio page. The code of this portfolio page was created from scratch.
+Websute contains: 
+- Logo text
+- Navigation menu
+- Background image
+- About Section
+- Images porfolio
+- Footer navigation links
 
 ## Table of Contents (Optional)
 
