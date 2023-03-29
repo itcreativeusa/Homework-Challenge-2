@@ -208,6 +208,10 @@ footer {
     padding: 1% 0;
   }
 
+  .about-me p {
+    font-size: 1.5em;
+  }
+
   #header-bg-image {
     height: 150px;
   }
@@ -236,6 +240,9 @@ footer {
   #header-bg-image {
     height: 100px;
   }
+  .about-me p {
+    font-size: 1em;
+  }
   /* Large smartphones headings h2 */
   .title-h2 {
     font-size: 1.5em;
@@ -252,6 +259,7 @@ footer {
     padding: 0 10px 0;
   }
 }
+
 
 /* Small smartphones */
 @media screen and (max-width: 576px) {
@@ -277,7 +285,9 @@ footer {
     align-content: space-around;
     justify-content: center;
   }
-
+  .about-me p {
+    font-size: 1em;
+  }
   nav ul {
     flex-direction: column;
   }
