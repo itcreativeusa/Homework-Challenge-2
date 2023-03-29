@@ -36,9 +36,9 @@ No special requirements
 
 Screenshot located in ``` assets/images ``` folder
 
-   ```md
-    ![Homework-Challenge-1 screenshot](assets/images/screenshot-homework-challenge-2.png)
-   ```
+ 
+    [Homework-Challenge-1 screenshot](assets/images/screenshot-homework-challenge-2.png)
+   
 
 ## Credits
 
