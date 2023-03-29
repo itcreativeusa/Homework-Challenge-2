@@ -92,14 +92,14 @@ main {
   padding: 0 0% 3% 4%;
 }
 
-/*Portfolio Section*/
-.section-portfolio {
+/*Portfolio section*/
+.work {
   flex-direction: row;
   display: flex;
   margin: 3% 0;
 }
 /*Wrap for whole images block*/
-.portfolio-images-wrap {
+.work-images-wrap {
   width: 80%;
   padding: 0 0 0 3%;
 }
@@ -259,7 +259,6 @@ footer {
     padding: 0 10px 0;
   }
 }
-
 
 /* Small smartphones */
 @media screen and (max-width: 576px) {
