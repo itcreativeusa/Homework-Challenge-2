@@ -55,6 +55,8 @@ This solution makes smooth scrolling
 https://gomakethings.com/smooth-scrolling-links-with-only-css/
 
 
+https://stackoverflow.com/questions/9913293/change-text-on-hover-then-return-to-the-previous-text
+
 ## License
 
 Please refer to the LICENSE in the repo.
