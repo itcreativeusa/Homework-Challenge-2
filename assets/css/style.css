@@ -60,6 +60,7 @@ nav ul {
 main {
   width: 100%;
   margin: 0 auto;
+  padding: 5%;
 }
 
 /*Title h2 */
@@ -171,6 +172,7 @@ figurecaption h4 {
 footer {
   width: 100%;
   margin: 0 auto;
+  padding: 5%;
 }
 .contacts {
   align-items: center;
