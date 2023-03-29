@@ -60,7 +60,7 @@ nav ul {
 main {
   width: 100%;
   margin: 0 auto;
-  padding: 5%;
+  padding: 0 5%;
 }
 
 /*Title h2 */
@@ -172,7 +172,7 @@ figurecaption h4 {
 footer {
   width: 100%;
   margin: 0 auto;
-  padding: 5%;
+  padding: 0 5%;
 }
 .contacts {
   align-items: center;
@@ -309,6 +309,7 @@ footer {
   .title-h2 {
     font-size: 1em;
   }
+    /* Small smartphones footer menu*/
   #nav-menu-footer {
     display: flex;
     flex-direction: column;
