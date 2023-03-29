@@ -4,6 +4,9 @@
   --dark-grey-color: rgb(49 52 61);
   --dark-blue-color: rgb(66 86 117);
 }
+html{
+  scroll-behavior: smooth;
+}
 
 body {
   font-size: 16px;
