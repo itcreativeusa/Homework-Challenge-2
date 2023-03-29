@@ -18,11 +18,10 @@ header {
   display: flex;
   background-color: var(--dark-grey-color);
   flex-direction: row;
-  align-content: center;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
   padding: 1% 3% 1% 0;
+  flex-wrap: wrap;
 }
 
 #logo {
@@ -35,11 +34,7 @@ header {
 
 /*Header Menu*/
 nav ul {
-  display: flex;   
-  margin: 0 auto;
-}
-
-#nav-menu-header {
+  display: flex;
   margin: 0 auto;
 }
 
@@ -85,7 +80,7 @@ main {
 .about-me {
   display: flex;
   flex-direction: row;
-  margin: 1% 4% 1% 4%;
+  margin: 3% 0;
 }
 
 .about-me p {
@@ -101,7 +96,7 @@ main {
 .section-portfolio {
   flex-direction: row;
   display: flex;
-  margin: 1% 4% 1% 4%;
+  margin: 3% 0;
 }
 /*Wrap for whole images block*/
 .portfolio-images-wrap {
@@ -120,7 +115,7 @@ img {
   object-fit: cover;
   -webkit-filter: brightness(40%);
   max-width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 /*Effect on hover*/
@@ -140,13 +135,14 @@ img:hover {
 .column-left {
   display: flex;
   flex-direction: column;
-  padding-right: 1%;
 }
 /*Column right*/
 .column-right {
   display: flex;
   flex-direction: column;
-  padding-left: 1%;
+}
+figure {
+  padding: 7px;
 }
 
 /*Figurecaption*/
@@ -177,7 +173,7 @@ footer {
   align-items: center;
   display: flex;
   flex-direction: row;
-  margin: 0 4% 0 4%;
+  margin: 3% 0;
 }
 
 /*Footer menu*/
@@ -194,7 +190,7 @@ footer {
   font-size: 1.5em;
   font-weight: 100;
   color: var(--dark-grey-color);
-  margin: 0 10px;
+  padding: 0 10px 0;
 }
 
 /* Media Query Screen */
@@ -206,28 +202,32 @@ footer {
     padding: 1%;
     text-align: center;
   }
+  /* Tablets header menu */
   #nav-menu-header {
     margin: 0 auto;
+    padding: 1% 0;
   }
-  nav ul li {
-    padding: 3% 0;
-    text-align: center;
-  }
+
   #header-bg-image {
     height: 150px;
   }
+  /* Tablets headings h2 */
   .title-h2 {
     font-size: 2em;
   }
+  /* Tablets footer menu links */
   .contacts a {
-    margin: 0;
+    padding: 0 10px 0;
   }
-  
 }
 /* Large smartphones */
 @media screen and (max-width: 768px) {
   #nav-menu-footer {
     flex-direction: row;
+  }
+  /* Large smartphones header menu */
+  #nav-menu-header {
+    margin: 0 auto;
   }
   #nav-menu-header a {
     font-size: 1em;
@@ -236,32 +236,48 @@ footer {
   #header-bg-image {
     height: 100px;
   }
+  /* Large smartphones headings h2 */
+  .title-h2 {
+    font-size: 1.5em;
+  }
+
   figurecaption h3 {
     font-size: 1em;
     font-weight: 400;
   }
+  /* Large smartphones footer menu links */
   .contacts a {
-    margin: 0;
+    font-size: 1em;
+    font-weight: 200;
+    padding: 0 10px 0;
   }
 }
+
 /* Small smartphones */
 @media screen and (max-width: 576px) {
+  header {
+    flex-direction: column;
+  }
+  /* Small smartphones header menu links */
   #nav-menu-header a {
     font-size: 1em;
     font-weight: 200;
   }
+
   #logo {
     font-size: 200%;
     margin: 0 auto;
     padding: 1%;
     text-align: center;
   }
+  /* Small smartphones header menu links */
   #nav-menu-header {
     margin: 0 auto;
     display: flex;
     align-content: space-around;
     justify-content: center;
   }
+
   nav ul {
     flex-direction: column;
   }
@@ -275,9 +291,9 @@ footer {
   #header-bg-image {
     height: 100px;
   }
-
+  /* Small smartphones headings h2 */
   .title-h2 {
-    font-size: 1.5em;
+    font-size: 1em;
   }
   #nav-menu-footer {
     display: flex;
@@ -289,10 +305,10 @@ footer {
     font-size: 1em;
     font-weight: 400;
   }
-
+  /* Small smartphones footer menu links */
   .contacts a {
     font-size: 1em;
     font-weight: 200;
-    margin: 0;
+    padding: 0 10px 0;
   }
 }
