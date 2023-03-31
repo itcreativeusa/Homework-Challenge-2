@@ -1,14 +1,14 @@
-# My Portfolio Webpage
+# My pretty portfolio Webpage
 
 ## Description
 
 Link to deployed application
-https://itcreativeusa.github.io/My-portfolio-page/
+ https://itcreativeusa.github.io/My-pretty-portfolio/
 
 Github link 
-https://github.com/itcreativeusa/My-portfolio-page
+https://github.com/itcreativeusa/My-pretty-portfolio
 
-This My-portfolio-page website was created as a bootcamp everyweek student challege. This website is a HTML & CSS portfolio page. The code of this portfolio page was created from scratch.
+This My-pretty-portfolio website was created as a bootcamp everyweek student challege. This website is a HTML & CSS portfolio page. The code of this portfolio page was created from scratch.
 Website contains: 
 - Logo text
 - Navigation menu 
