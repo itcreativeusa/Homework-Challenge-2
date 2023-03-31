@@ -53,7 +53,7 @@ This solution makes smooth scrolling was found here
 
 https://gomakethings.com/smooth-scrolling-links-with-only-css/
 
-Solution how to make hover over span element was found here:
+Solution how to make hover over text was found here:
 
 https://stackoverflow.com/questions/9913293/change-text-on-hover-then-return-to-the-previous-text
 
