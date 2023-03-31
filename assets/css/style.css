@@ -16,6 +16,9 @@ body {
   flex-direction: column;
   background-color: rgb(238 238 246);
 }
+a:visited {
+  color: var(--dark-grey-color);
+}
 
 /*header*/
 header {
@@ -142,10 +145,11 @@ main {
 /*Fullwidth image portfolio*/
 .full-image {
   display: flex;
+  position: relative;
 }
 
 img {
-  border: 3px solid var(--mint-color);
+  border: 5px solid var(--mint-color);
   object-fit: cover;
   -webkit-filter: brightness(40%);
   max-width: 100%;
@@ -179,14 +183,20 @@ figure {
   padding: 7px;
 }
 
+.small-images {
+  position: relative;
+  display: flex;
+}
 /*Figurecaption*/
+.figurecaption-title-h3-h4 {
+  position: absolute;
+  bottom: 20%;
+}
+
 figurecaption {
   background-color: var(--mint-color);
   display: inline-block;
-  width: fit-content;
-  padding: 2%;
-  position: relative;
-  bottom: 40%;
+  padding: 3% 5% 3% 10%;
 }
 
 figurecaption h3 {
@@ -244,7 +254,7 @@ footer {
   }
 
   /*Tablets header h1 title text on back*/
-  #h1-title{
+  #h1-title {
     font-size: 200%;
   }
   .about-me p {
@@ -277,16 +287,14 @@ footer {
   /* Large smartphones header menu */
   #nav-menu-header {
     margin: 0 auto;
-  }
-  #nav-menu-header a {
     font-size: 1em;
   }
 
   #header-bg-image {
     height: 100px;
   }
-/*Large smartphones h1 title text on back*/
-  #h1-title{
+  /*Large smartphones h1 title text on back*/
+  #h1-title {
     font-size: 200%;
   }
   .about-me p {
@@ -339,8 +347,8 @@ footer {
     align-content: space-around;
     justify-content: center;
   }
-/*Small smartphones h1 title text on back*/
-  #h1-title{
+  /*Small smartphones h1 title text on back*/
+  #h1-title {
     font-size: 100%;
   }
   .about-me p {
@@ -376,10 +384,9 @@ footer {
   }
   .full-image {
     display: flex;
-    padding-bottom: 40px;
   }
   figure {
-    padding: 0;
+    padding: 3px;
   }
   figurecaption h3 {
     font-size: 1em;
