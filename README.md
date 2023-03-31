@@ -36,8 +36,7 @@ No special requirements
 
 Screenshot located in ``` assets/images ``` folder
 
- 
-    [Homework-Challenge-1 screenshot](assets/images/screenshot-homework-challenge-2.png)
+ [Homework-Challenge-1 screenshot](assets/images/screenshot-homework-challenge-2.png)
    
 
 ## Credits
@@ -50,10 +49,11 @@ Solution was found here:
 https://www.w3schools.com/css/css3_object-fit.asp
 
 Solution ```scroll-behavior: smooth``` used in style.css file,
-This solution makes smooth scrolling
+This solution makes smooth scrolling was found here
 
 https://gomakethings.com/smooth-scrolling-links-with-only-css/
 
+Solution how to make hover over span element was found here:
 
 https://stackoverflow.com/questions/9913293/change-text-on-hover-then-return-to-the-previous-text
 
