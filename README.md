@@ -3,10 +3,10 @@
 ## Description
 
 Link to deployed application
-https://itcreativeusa.github.io/Homework-Challenge-2/
+https://itcreativeusa.github.io/My-portfolio-page/
 
 Github link 
-https://github.com/itcreativeusa/Homework-Challenge-2
+https://github.com/itcreativeusa/My-portfolio-page
 
 This Homework-Challenge-2 website was created as a bootcamp everyweek student challege. This website is a HTML & CSS portfolio page. The code of this portfolio page was created from scratch.
 Websute contains: 
