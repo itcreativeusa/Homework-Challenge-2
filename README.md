@@ -36,7 +36,7 @@ No special requirements
 
 Screenshot located in ``` assets/images ``` folder
 
- [Homework-Challenge-1 screenshot](assets/images/screenshot-homework-challenge-2.png)
+ [My-portfolio-page screenshot](assets/images/screenshot-my-portfolio-page.png)
    
 
 ## Credits
