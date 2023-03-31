@@ -1,4 +1,4 @@
-# Homework-Challenge-2 Webpage
+# My Portfolio Webpage
 
 ## Description
 
@@ -8,8 +8,8 @@ https://itcreativeusa.github.io/My-portfolio-page/
 Github link 
 https://github.com/itcreativeusa/My-portfolio-page
 
-This Homework-Challenge-2 website was created as a bootcamp everyweek student challege. This website is a HTML & CSS portfolio page. The code of this portfolio page was created from scratch.
-Websute contains: 
+This My-portfolio-page website was created as a bootcamp everyweek student challege. This website is a HTML & CSS portfolio page. The code of this portfolio page was created from scratch.
+Website contains: 
 - Logo text
 - Navigation menu 
 - About Section & recent photo 
