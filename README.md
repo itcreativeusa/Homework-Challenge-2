@@ -36,7 +36,7 @@ No special requirements
 
 Screenshot located in ``` assets/images ``` folder
 
- [My-portfolio-page screenshot](assets/images/screenshot-my-portfolio-page.png)
+![My-portfolio-page screenshot](assets/images/screenshot-my-portfolio-page.png)
    
 
 ## Credits
