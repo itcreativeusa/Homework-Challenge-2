@@ -3,10 +3,10 @@
 ## Description
 
 Link to deployed application
- https://itcreativeusa.github.io/My-pretty-portfolio/
+ https://itcreativeusa.github.io/my-pretty-portfolio/
 
 Github link 
-https://github.com/itcreativeusa/My-pretty-portfolio
+https://github.com/itcreativeusa/my-pretty-portfolio
 
 This My-pretty-portfolio website was created as a bootcamp everyweek student challege. This website is a HTML & CSS portfolio page. The code of this portfolio page was created from scratch.
 Website contains: 
