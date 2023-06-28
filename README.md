@@ -8,12 +8,12 @@ Link to deployed application
 Github link 
 https://github.com/itcreativeusa/my-pretty-portfolio
 
-This My-pretty-portfolio website was created as a bootcamp everyweek student challege. This website is a HTML & CSS portfolio page. The code of this portfolio page was created from scratch.
+This My-pretty-portfolio website was created as a boot camp every week student challenge. This website is an HTML & CSS portfolio page. The code of this portfolio page was created from scratch.
 Website contains: 
 - Logo text
 - Navigation menu 
 - About Section & recent photo 
-- Porfolio section
+- Portfolio section
 - Footer navigation
 
 ## Table of Contents (Optional)
@@ -42,9 +42,9 @@ Screenshot located in ``` assets/images ``` folder
 ## Credits
 
 Solution ``` object-fit: cover; ``` used in index.html file,
-This solution resize image to fit it's container
+This solution resizes image to fit its container
 
-Solution was found here:
+The solution was found here:
 
 https://www.w3schools.com/css/css3_object-fit.asp
 
@@ -53,7 +53,7 @@ This solution makes smooth scrolling was found here
 
 https://gomakethings.com/smooth-scrolling-links-with-only-css/
 
-Solution how to make hover over text was found here:
+The solution how to make hover over text was found here:
 
 https://stackoverflow.com/questions/9913293/change-text-on-hover-then-return-to-the-previous-text
 
